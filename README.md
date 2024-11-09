@@ -19,12 +19,12 @@ There can be duplicate values.
 
 **Example:**
 
-LC = LottoContainer()
-LC.insert("apple")
-LC.insert("orange")
-LC.insert("banana")
-print(LC.popRandom())   # > orange
-print(LC.popRandom())   # > apple
+LC = LottoContainer()  
+LC.insert("apple")  
+LC.insert("orange")  
+LC.insert("banana")  
+print(LC.popRandom())   # > orange  
+print(LC.popRandom())   # > apple  
 
 The item to be printed could be any of the items in the list as they all have an equal chance.
 
@@ -49,12 +49,12 @@ There can be duplicate values and weights.
 
 **Example:**
 
-LC = LottoContainer()
-LC.insert("apple", 15)
-LC.insert("orange", 1)
-LC.insert("banana", 4)
-print(LC.popRandom())   # > apple
-print(LC.popRandom())   # > banana
+LC = LottoContainer()  
+LC.insert("apple", 15)  
+LC.insert("orange", 1)  
+LC.insert("banana", 4)  
+print(LC.popRandom())   # > apple  
+print(LC.popRandom())   # > banana  
 
 The items in the list are now weighted, this means that on the firs popRandom() each item has the following chances:
 
